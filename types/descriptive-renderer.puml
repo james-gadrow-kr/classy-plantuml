@@ -1,0 +1,9 @@
+' Declares a class that simply couples a Descriptor to a Renderer.
+!include descriptor.puml
+!include renderer.puml
+
+$class(DescriptiveRenderer)
+  $classImplements(Descriptor)
+  $classImplements(Renderer, 'renderer')
+$endclass(DescriptiveRenderer)
+
